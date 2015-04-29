@@ -16,26 +16,32 @@
     </div>
     <form>
         <div class="row">
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-4">
-                    <input type="button" onclick="executeCode()" value="Run Program" class="btn btn-default" />
-                </div>
-                <div class="col-md-6" id="messageDiv" style="font-size: xx-large;" class="text-center"></div>
+            <div class="col-md-12">
+                <div id="messageDiv" style="font-size: 50px; font-weight: bold;" class="text-center"></div>
             </div>
         </div>
         <br />
         <br />
         <div class="row">
             <div class="form-group">
-                <div class="col-md-offset-2 col-md-4">
+                <div class="col-md-offset-2 col-md-8">
                     <label for="codeWindow">Computer Code</label>
-                    <textarea name="codeWindow" id="codeWindow" class="form-control" style="width:100%;height:150px;font-family: Consolas;">
+                    <textarea name="codeWindow" id="codeWindow" class="form-control" style="width:100%;height:150px;font-family: Consolas;font-size:x-large;" spellcheck="false">
 var mainMessage = "Be Prepared.";
 var messageContainer = document.getElementById("messageDiv");
 messageContainer.textContent = mainMessage;
                     </textarea>
                 </div>
                 <div class="col-md-6"></div>
+            </div>
+        </div>
+                <br />
+        <br />
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-4">
+                    <input type="button" onclick="executeCode()" value="Run Program" class="btn btn-default" />
+                </div>
             </div>
         </div>
     </form>
