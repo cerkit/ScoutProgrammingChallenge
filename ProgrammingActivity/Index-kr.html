@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Scout Programming Activity</title>
@@ -7,11 +7,16 @@
     <script src="Scripts/bootstrap.min.js"></script>
     <link href="Content/bootstrap-superhero.min.css" rel="stylesheet" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+		body{
+			font-family: sans-serif;
+		}
+	</style>
 </head>
 <body>
     <div class="container">
 		<a href="Index-es.html"><h3>Haga clic aquí para Español</h3></a>
-			<a href="Index-kr.html"><h3>한국어 버전에 대 한 여기를 클릭 하십시오.</h3></a>
+		<a href="Index.html"><h3>Click here for English</h3></a>
         <div class="jumbotron">
             <!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In  -->
 <div class="pull-left">
@@ -124,9 +129,9 @@
 </g>
 </svg>
 </div>
-            <h1>Programming Challenge</h1>
-            <h3>Can you change the message?</h3>
-			<h4>BONUS: Change the color of the Logo to the left</h4>
+            <h1>프로그래밍 과제</h1>
+            <h3>메시지를 변경할 수 있습니까?</h3>
+			<h4>보너스: 왼쪽 로고의 색상을 변경</h4>
 			<div class="pull-right">
 				<img src="images/programming.png" alt="Programming merit badge"  class="img-rounded"></img>
 			</div>
@@ -142,10 +147,10 @@
         <div class="row">
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-8">
-                    <label for="codeWindow">Computer Code</label>
+                    <label for="codeWindow">컴퓨터 코드</label>
                     <textarea name="codeWindow" id="codeWindow" class="form-control" style="width:100%;height:150px;font-family: Consolas;font-size:x-large;" spellcheck="false">
 var messageContainer = $("#messageDiv");
-messageContainer.text("Be Prepared.");
+messageContainer.text("준비 되십시오.");
 $("#bsaLogo").children("path").attr("fill", "White");
                     </textarea>
                 </div>
@@ -156,8 +161,8 @@ $("#bsaLogo").children("path").attr("fill", "White");
         <div class="row">
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-4">
-                    <input type="button" onclick="executeCode()" value="Run Program" class="btn btn-default" />
-					Press the <kbd>Ctrl</kbd> + <kbd>F5</kbd> key to start over
+                    <input type="button" onclick="executeCode()" value="프로그램을 실행" class="btn btn-default" />
+					다시 시작 <kbd>Ctrl</kbd> + <kbd>F5</kbd> 키를 눌러
                 </div>
             </div>
         </div>
