@@ -1,4 +1,4 @@
-ProgrammingChallenge
+boy-scout-programming-challenge
 ====================  
   
 This is a simple HTML page that demonstrates the basics for showing a message on the screen. It challenges the user to change the code so that the message changes.
